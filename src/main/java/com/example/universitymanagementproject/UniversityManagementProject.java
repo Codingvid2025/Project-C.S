@@ -157,7 +157,7 @@ public class UniversityManagementProject extends Application {
     }
 
     // Method to show ADMIN dashboard
-    private void showAdminDashboard(String username, String role) {
+    public void showAdminDashboard(String username, String role) {
         Stage adminStage = new Stage();
         adminStage.setTitle("Admin Dashboard");
 
@@ -180,7 +180,7 @@ public class UniversityManagementProject extends Application {
     }
 
     // Method to show student dashboard
-    private void showStudentDashboard(String username, String role) {
+    public void showStudentDashboard(String username, String role) {
         Stage studentStage = new Stage();
         studentStage.setTitle("Student Dashboard");
 
